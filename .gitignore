@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+/dist
+/craco-build
 
 # misc
 .DS_Store
