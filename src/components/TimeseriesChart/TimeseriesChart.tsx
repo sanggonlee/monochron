@@ -58,7 +58,7 @@ export default function TimeseriesChart({
   useEffect(() => {
     return () => {
       reset();
-    }
+    };
   }, []);
 
   useEffect(() => {

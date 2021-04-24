@@ -38,17 +38,13 @@ export default function Rulers({
 
 function getNextRulerTime(time: number, interval: number) {
   return Math.ceil(time / interval) * interval;
-};
+}
 
-function getRulerTimes(
-  start: number,
-  end: number,
-  interval: number
-): number[] {
+function getRulerTimes(start: number, end: number, interval: number): number[] {
   const first = getNextRulerTime(start, interval);
   let rulerTimes = [];
   for (let curr = first; curr < end; curr += interval) {
     rulerTimes.push(curr);
   }
   return rulerTimes;
-};
+}
