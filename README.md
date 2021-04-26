@@ -4,7 +4,7 @@
 
 monochron is a lightweight React component library for visualizing arbitrary timeseries data in realtime.
 
-It was initially created to power [plum](https://github.com/sanggonlee/plum) project.
+It was initially created to power [plum](https://github.com/sanggonlee/plum) project (along with [pogo](https://github.com/sanggonlee/pogo)).
 
 ![Screenshot-1](/screenshots/2.gif?raw=true)
 
@@ -16,7 +16,11 @@ npm install monochron
 
 ## Usage
 
-You can find examples in the [examples](https://github.com/sanggonlee/monochron/examples) folder.
+### Examples
+- [Simple RealtimeChart](https://codesandbox.io/s/monochron-simple-realtimechart-6uzoz?file=/src/App.js)
+- [GIF images in TimeseriesChart](https://codesandbox.io/s/monochron-gif-timeseries-vwkwu)
+- [Nested rows in TimeseriesChart](https://codesandbox.io/s/monochron-nested-rows-z7dfu)
+- [plum](https://github.com/sanggonlee/plum/ui/src/components/Tables/Tables.tsx)
 
 ### TimeseriesChart
 
