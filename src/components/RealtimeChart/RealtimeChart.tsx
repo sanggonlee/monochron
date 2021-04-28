@@ -18,7 +18,7 @@ import {
 
 const emptyObject = {};
 const emptyFunction = () => {};
-const defaultWidth = 1000; // 1000px
+const defaultWidth = '100%';
 const defaultFrameCycle = 60 * 1000; // 1 minute
 const defaultRulerInterval = 5 * 1000; // 5 seconds
 const defaultStartTime = 0;
