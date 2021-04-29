@@ -10,11 +10,17 @@ It was initially created to power [plum](https://github.com/sanggonlee/plum) pro
 
 ## Installation
 
+---
+
 ```sh
 npm install monochron
 ```
 
 ## Usage
+
+---
+
+Documentation can be found [here](https://sanggonlee.github.io/monochron/).
 
 ### Examples
 - [Simple RealtimeChart](https://codesandbox.io/s/monochron-simple-realtimechart-6uzoz?file=/src/App.js)
