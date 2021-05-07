@@ -1,6 +1,7 @@
 # monochron
 
 [![NPM version](https://badge.fury.io/js/esta.svg)](http://badge.fury.io/js/esta)
+[![Documentation Status](https://readthedocs.org/projects/monochron/badge/?version=latest)](https://sanggonlee.github.io/monochron/?badge=latest)
 
 monochron is a lightweight React component library for visualizing arbitrary timeseries data in realtime.
 
