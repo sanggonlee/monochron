@@ -80,4 +80,4 @@ TimeseriesChart will re-render every time you pass a new object to `newBucket` p
 
 ---
 
-<img src ="./timeseries-chart-options.png"/>
+<img src ="../../img/timeseries-chart-options.png"/>

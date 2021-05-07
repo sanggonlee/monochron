@@ -25,7 +25,7 @@ RootBucket {
 | entries | Array<[Bucket](/docs/types#bucket)> | List of data buckets, where each item will map to an individual bar in the chart. |
 ---
 
-<img src="./rootbucket.png"/>
+<img src="../../img/rootbucket.png"/>
 
 It represents one time slice (whose width maps to the time interval) of the entire timeseries data.
 
@@ -49,7 +49,7 @@ Bucket {
 | data | unknown | Data object of your entry. You can use this field to format your row as you like. In TypeScript you will need to cast this to your known type, i.e. `const person = bucket.data as Person;` |
 | buckets | Array<[Bucket](/docs/types#bucket)> | Optional. monochron supports recursive rows in the chart (i.e. rows in a row in a row, etc). Structure buckets if you're intending to do this. |
 ---
-<img src="./bucket.png"/>
+<img src="../../img/bucket.png"/>
 
 It represents a single row (at whatever depth) in the chart.
 

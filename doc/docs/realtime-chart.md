@@ -57,4 +57,4 @@ RealtimeChart will re-render every time you pass new values to `currentTime` or 
 
 ---
 
-<img src ="./timeseries-chart-options.png"/>
+<img src ="../../img/timeseries-chart-options.png"/>
