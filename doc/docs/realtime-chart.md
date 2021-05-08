@@ -6,6 +6,8 @@ sidebar_position: 3
 
 RealtimeChart is a React component for rendering timeseries-based data in realtime chart format.
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## When?
 
 Use RealtimeChart (over [TimeseriesChart](/docs/timeseries-chart)) for more arbitrary form of data, you want a finer control of the updates timing.
@@ -57,4 +59,4 @@ RealtimeChart will re-render every time you pass new values to `currentTime` or 
 
 ---
 
-<img src ="../../img/timeseries-chart-options.png"/>
+<img src ={useBaseUrl("/img/timeseries-chart-options.png")}/>

@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # TimeseriesChart
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 TimeseriesChart is a React component for rendering timeseries-based data in realtime chart format. It uses `RealtimeChart` component under the hood.
 
 ## When?
@@ -80,4 +82,4 @@ TimeseriesChart will re-render every time you pass a new object to `newBucket` p
 
 ---
 
-<img src ="../../img/timeseries-chart-options.png"/>
+<img src={useBaseUrl("/img/timeseries-chart-options.png")}/>
